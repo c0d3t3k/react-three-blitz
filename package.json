@@ -1,0 +1,72 @@
+{
+  "name": "react-three-blitz",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "blitz dev",
+    "build": "blitz build",
+    "start": "blitz start",
+    "studio": "blitz prisma studio",
+    "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "prisma": {
+    "schema": "db/schema.prisma"
+  },
+  "prettier": {
+    "semi": false,
+    "printWidth": 100
+  },
+  "xhusky": {
+    "hooks": {
+      "pre-commit": "lint-staged && pretty-quick --staged",
+      "pre-push": "tsc && npm run lint && npm run test"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint --fix"
+    ]
+  },
+  "dependencies": {
+    "@prisma/client": "~2.16",
+    "@react-three/drei": "3.8.6",
+    "@types/mathjs": "6.0.11",
+    "blitz": "0.30.0-canary.14",
+    "drei": "2.2.21",
+    "final-form": "4.20.1",
+    "mathjs": "9.2.0",
+    "next-themes": "0.0.12",
+    "next-transpile-modules": "6.3.0",
+    "prisma": "~2.16",
+    "r3f-perf": "0.82.0",
+    "react": "0.0.0-experimental-3310209d0",
+    "react-dom": "0.0.0-experimental-3310209d0",
+    "react-error-boundary": "3.1.0",
+    "react-final-form": "6.5.2",
+    "react-three-fiber": "5.3.18",
+    "react-three-flex": "0.5.2",
+    "styled-components": "5.2.1",
+    "tailwindcss": "2",
+    "three": "0.122.0",
+    "typescript": "4.1.5",
+    "zod": "1.11.11"
+  },
+  "devDependencies": {
+    "@types/preview-email": "2.0.0",
+    "@types/react": "17.0.2",
+    "autoprefixer": "10",
+    "eslint": "7.20.0",
+    "husky": "4.3.8",
+    "lint-staged": "10.5.4",
+    "postcss": "8",
+    "prettier": "2.2.1",
+    "prettier-plugin-prisma": "0.4.0",
+    "pretty-quick": "3.1.0",
+    "preview-email": "3.0.3"
+  },
+  "private": true
+}
