@@ -1,0 +1,8 @@
+{
+    "template": "next",
+    "container": { 
+        "port": 3000, 
+        "startScript": "dev", 
+        "node": "12" 
+    }
+}
