@@ -36,8 +36,6 @@
     "@react-three/drei": "3.8.6",
     "@types/mathjs": "6.0.11",
     "blitz": "0.30.0-canary.14",
-    "drei": "2.2.21",
-    "final-form": "4.20.1",
     "mathjs": "9.2.0",
     "next-themes": "0.0.12",
     "next-transpile-modules": "6.3.0",
