@@ -4,7 +4,7 @@
 
 [![Discord Shield](https://img.shields.io/discord/740090768164651008?style=flat&colorA=000000&colorB=000000&label=discord&logo=discord&logoColor=ffffff)](https://discord.blitzjs.com)
 
-
+[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?style=flat-square&logo=codesandbox)](https://githubbox.com/c0d3t3k/react-three-blitz)
 
 # **react-three-blitz**
 
